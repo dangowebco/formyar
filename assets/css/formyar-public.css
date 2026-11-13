@@ -1,0 +1,828 @@
+/**
+ * FormYar - Public Styles
+ */
+
+/* ============================================
+   Design Tokens (Customizable via Theme)
+   ============================================ */
+.fmyar-form-wrapper,
+.fmyar-form {
+  --fmyar-primary: #f27259;
+  --fmyar-primary-hover: #e05a42;
+  --fmyar-primary-light: #fef0ed;
+  --fmyar-primary-rgb: 242, 114, 89;
+  --fmyar-text: #18181b;
+  --fmyar-text-secondary: #52525b;
+  --fmyar-text-tertiary: #71717a;
+  --fmyar-border: #e8e8ea;
+  --fmyar-border-hover: #d4d4d8;
+  --fmyar-bg: #ffffff;
+  --fmyar-bg-subtle: #fafafa;
+  --fmyar-radius: 12px;
+  --fmyar-radius-sm: 8px;
+  --fmyar-radius-lg: 16px;
+  --fmyar-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --fmyar-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --fmyar-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --fmyar-transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================
+   Form Wrapper
+   ============================================ */
+.fmyar-form-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--fmyar-bg);
+  border: 1px solid var(--fmyar-border);
+  border-radius: var(--fmyar-radius-lg);
+  overflow: hidden;
+  font-family: inherit;
+  color: var(--fmyar-text);
+}
+
+/* ============================================
+   Form Header
+   ============================================ */
+.fmyar-form-header {
+  padding: 32px 32px 24px;
+  background: linear-gradient(135deg, var(--fmyar-primary-light) 0%, var(--fmyar-bg) 100%);
+  border-bottom: 1px solid var(--fmyar-border);
+  text-align: center;
+}
+
+.fmyar-form-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--fmyar-text);
+  margin: 0 0 8px;
+  letter-spacing: -0.3px;
+  line-height: 1.3;
+}
+
+.fmyar-form-description {
+  font-size: 0.9375rem;
+  color: var(--fmyar-text-secondary);
+  margin: 0;
+  line-height: 1.6;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============================================
+   Progress Bar
+   ============================================ */
+.fmyar-form-progress {
+  height: 6px;
+  background: var(--fmyar-border);
+  overflow: hidden;
+  position: relative;
+}
+
+.fmyar-form-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--fmyar-primary), var(--fmyar-primary-hover));
+  border-radius: 0 3px 3px 0;
+  transition: width 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 0;
+}
+
+.fmyar-form-progress-text {
+  padding: 10px 32px;
+  font-size: 0.75rem;
+  color: var(--fmyar-text-tertiary);
+  text-align: center;
+  background: var(--fmyar-bg-subtle);
+  border-bottom: 1px solid var(--fmyar-border);
+  font-weight: 500;
+}
+
+.fmyar-form-progress-count {
+  color: var(--fmyar-primary);
+  font-weight: 700;
+}
+
+/* ============================================
+   Form Body
+   ============================================ */
+.fmyar-form {
+  padding: 24px;
+}
+
+.fmyar-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ============================================
+   Field Card
+   ============================================ */
+.fmyar-field-card {
+  background: var(--fmyar-bg);
+  border: 1px solid var(--fmyar-border);
+  border-radius: var(--fmyar-radius);
+  padding: 20px;
+  transition: all var(--fmyar-transition);
+}
+
+.fmyar-field-card:hover {
+  border-color: var(--fmyar-border-hover);
+  box-shadow: var(--fmyar-shadow-sm);
+}
+
+.fmyar-field-card.fmyar-field-error {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.fmyar-field-card.fmyar-field-complete {
+  border-color: #22c55e;
+}
+
+/* Field Header */
+.fmyar-field-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.fmyar-field-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--fmyar-primary-light);
+  color: var(--fmyar-primary);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all var(--fmyar-transition);
+}
+
+.fmyar-field-card.fmyar-field-complete .fmyar-field-number {
+  background: #22c55e;
+  color: #fff;
+}
+
+.fmyar-field-card-label-wrap {
+  flex: 1;
+  min-width: 0;
+}
+
+.fmyar-field-card-label {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--fmyar-text);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.fmyar-required {
+  color: #ef4444;
+  margin-inline-start: 2px;
+  font-weight: 700;
+}
+
+.fmyar-required-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  background: #fef2f2;
+  color: #ef4444;
+  border-radius: 999px;
+  line-height: 1.4;
+}
+
+/* Field Body */
+.fmyar-field-card-body {
+  /* Input styles inherited from field types */
+}
+
+/* Field Footer (Hint) */
+.fmyar-field-card-footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--fmyar-border);
+}
+
+.fmyar-field-hint-icon {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  opacity: 0.6;
+}
+
+.fmyar-field-hint-text {
+  font-size: 0.8125rem;
+  color: var(--fmyar-text-tertiary);
+  line-height: 1.5;
+}
+
+/* ============================================
+   Form Labels & Inputs
+   ============================================ */
+.fmyar-form-label {
+  display: block;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--fmyar-text);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.fmyar-form-hint {
+  font-size: 0.75rem;
+  color: var(--fmyar-text-tertiary);
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.fmyar-input-full,
+.fmyar-select-full,
+.fmyar-textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 0.9375rem;
+  font-family: inherit;
+  line-height: 1.5;
+  color: var(--fmyar-text);
+  background-color: var(--fmyar-bg);
+  border: 1.5px solid var(--fmyar-border-hover);
+  border-radius: var(--fmyar-radius-sm);
+  transition: all var(--fmyar-transition);
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+}
+
+.fmyar-input-full:hover,
+.fmyar-select-full:hover,
+.fmyar-textarea:hover {
+  border-color: var(--fmyar-text-tertiary);
+}
+
+.fmyar-input-full:focus,
+.fmyar-select-full:focus,
+.fmyar-textarea:focus {
+  outline: none;
+  border-color: var(--fmyar-primary);
+  box-shadow: 0 0 0 4px rgba(var(--fmyar-primary-rgb), 0.12);
+}
+
+.fmyar-input-full::placeholder,
+.fmyar-textarea::placeholder {
+  color: var(--fmyar-text-tertiary);
+}
+
+.fmyar-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.fmyar-select-full {
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2371717a' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 44px;
+}
+
+/* ============================================
+   Checkboxes & Radios
+   ============================================ */
+.fmyar-checkbox,
+.fmyar-radio {
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 1.5px solid var(--fmyar-border-hover);
+  border-radius: 4px;
+  cursor: pointer;
+  accent-color: var(--fmyar-primary);
+  flex-shrink: 0;
+  transition: all var(--fmyar-transition);
+}
+
+.fmyar-radio {
+  border-radius: 50%;
+}
+
+.fmyar-checkbox:hover,
+.fmyar-radio:hover {
+  border-color: var(--fmyar-primary);
+}
+
+.fmyar-cursor-pointer {
+  cursor: pointer;
+}
+
+/* ============================================
+   Buttons
+   ============================================ */
+.fmyar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 24px;
+  font-size: 0.9375rem;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.4;
+  border: 1px solid transparent;
+  border-radius: var(--fmyar-radius-sm);
+  cursor: pointer;
+  transition: all var(--fmyar-transition);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.fmyar-btn-primary {
+  background-color: var(--fmyar-primary);
+  color: #fff;
+  border-color: var(--fmyar-primary);
+}
+
+.fmyar-btn-primary:hover {
+  background-color: var(--fmyar-primary-hover);
+  border-color: var(--fmyar-primary-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(var(--fmyar-primary-rgb), 0.3);
+}
+
+.fmyar-btn-primary:active {
+  transform: translateY(0);
+}
+
+.fmyar-btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(var(--fmyar-primary-rgb), 0.2);
+}
+
+.fmyar-btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.fmyar-btn-block {
+  width: 100%;
+}
+
+.fmyar-btn-lg {
+  padding: 16px 32px;
+  font-size: 1rem;
+}
+
+/* Button Spinner */
+.fmyar-btn-spinner {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: fmyar-spin 0.6s linear infinite;
+}
+
+.fmyar-btn-text {
+  transition: opacity var(--fmyar-transition);
+}
+
+@keyframes fmyar-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ============================================
+   Form Footer
+   ============================================ */
+.fmyar-form-footer {
+  padding: 24px 0 0;
+  border-top: 1px solid var(--fmyar-border);
+  margin-top: 24px;
+}
+
+.fmyar-form-footer-note {
+  font-size: 0.75rem;
+  color: var(--fmyar-text-tertiary);
+  text-align: center;
+  margin: 12px 0 0;
+  line-height: 1.5;
+}
+
+/* ============================================
+   Field Errors
+   ============================================ */
+.fmyar-field-error .fmyar-input-full,
+.fmyar-field-error .fmyar-select-full,
+.fmyar-field-error .fmyar-textarea {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.fmyar-field-error .fmyar-input-full:focus,
+.fmyar-field-error .fmyar-select-full:focus,
+.fmyar-field-error .fmyar-textarea:focus {
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.12);
+}
+
+.fmyar-field-error-message {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8125rem;
+  color: #ef4444;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.fmyar-field-error-message::before {
+  content: "⚠";
+  font-size: 0.875rem;
+}
+
+/* ============================================
+   File Drop Zone
+   ============================================ */
+.fmyar-file-drop-zone {
+  border: 2px dashed var(--fmyar-border-hover);
+  border-radius: var(--fmyar-radius);
+  padding: 32px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--fmyar-transition);
+  background: var(--fmyar-bg-subtle);
+  position: relative;
+}
+
+.fmyar-file-drop-zone:hover {
+  border-color: var(--fmyar-primary);
+  background: var(--fmyar-primary-light);
+}
+
+.fmyar-file-drop-zone-active {
+  border-color: var(--fmyar-primary);
+  background: var(--fmyar-primary-light);
+  transform: scale(1.02);
+  box-shadow: 0 0 0 4px rgba(var(--fmyar-primary-rgb), 0.1);
+}
+
+.fmyar-file-drop-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 12px;
+  color: var(--fmyar-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--fmyar-primary-light);
+  border-radius: 50%;
+  transition: all var(--fmyar-transition);
+}
+
+.fmyar-file-drop-zone:hover .fmyar-file-drop-icon {
+  transform: scale(1.1);
+}
+
+.fmyar-file-drop-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.fmyar-file-drop-title {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--fmyar-text);
+  margin: 0 0 4px;
+}
+
+.fmyar-file-drop-subtitle {
+  font-size: 0.75rem;
+  color: var(--fmyar-text-tertiary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.fmyar-file-list {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fmyar-file-preview-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--fmyar-bg-subtle);
+  border: 1px solid var(--fmyar-border);
+  border-radius: var(--fmyar-radius-sm);
+  font-size: 0.875rem;
+}
+
+.fmyar-file-preview-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--fmyar-text);
+  font-weight: 500;
+}
+
+.fmyar-file-upload-progress {
+  font-size: 0.75rem;
+  color: var(--fmyar-primary);
+  font-weight: 600;
+}
+
+.fmyar-file-preview-size {
+  font-size: 0.75rem;
+  color: var(--fmyar-text-tertiary);
+}
+
+.fmyar-file-remove-btn {
+  background: none;
+  border: none;
+  color: var(--fmyar-text-tertiary);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  transition: color var(--fmyar-transition);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.fmyar-file-remove-btn:hover {
+  color: #ef4444;
+  background: rgba(239, 68, 68, 0.1);
+}
+
+/* ============================================
+   Success Message
+   ============================================ */
+.fmyar-success-message {
+  text-align: center;
+  padding: 48px 32px;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border: 1px solid #86efac;
+  border-radius: var(--fmyar-radius-lg);
+  animation: fmyar-success-fade-in 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fmyar-success-icon {
+  font-size: 3rem;
+  color: #22c55e;
+  margin-bottom: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.2);
+  animation: fmyar-success-bounce 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fmyar-success-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.fmyar-success-message p {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #15803d;
+  margin: 0;
+  line-height: 1.6;
+}
+
+@keyframes fmyar-success-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fmyar-success-bounce {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+/* ============================================
+   Messages (Warning/Error)
+   ============================================ */
+.fmyar-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 20px;
+  border-radius: var(--fmyar-radius);
+  margin-bottom: 16px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+.fmyar-message-warning {
+  background: #fffbeb;
+  border: 1px solid #fcd34d;
+  color: #92400e;
+}
+
+.fmyar-message-warning::before {
+  content: "⚠";
+  font-size: 1.125rem;
+  flex-shrink: 0;
+}
+
+.fmyar-message-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+}
+
+.fmyar-message-error::before {
+  content: "✕";
+  font-size: 1rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   Spacing Utilities
+   ============================================ */
+.fmyar-mb-2 { margin-bottom: 0.5rem; }
+.fmyar-mb-3 { margin-bottom: 0.75rem; }
+.fmyar-mb-4 { margin-bottom: 1rem; }
+.fmyar-mt-2 { margin-top: 0.5rem; }
+.fmyar-py-8 { padding-top: 2rem; padding-bottom: 2rem; }
+.fmyar-space-y-1 > * + * { margin-top: 0.25rem; }
+.fmyar-space-y-2 > * + * { margin-top: 0.5rem; }
+
+/* ============================================
+   Flex Utilities
+   ============================================ */
+.fmyar-flex { display: flex; }
+.fmyar-flex-1 { flex: 1; }
+.fmyar-flex-wrap { flex-wrap: wrap; }
+.fmyar-items-center { align-items: center; }
+.fmyar-gap-1 { gap: 0.25rem; }
+.fmyar-gap-2 { gap: 0.5rem; }
+.fmyar-min-w-0 { min-width: 0; }
+
+/* ============================================
+   Text Utilities
+   ============================================ */
+.fmyar-text-center { text-align: center; }
+.fmyar-text-sm { font-size: 0.875rem; }
+.fmyar-text-gray-500 { color: var(--fmyar-text-secondary); }
+.fmyar-text-muted { color: var(--fmyar-text-tertiary); }
+.fmyar-text-error { color: #ef4444; }
+.fmyar-italic { font-style: italic; }
+
+/* ============================================
+   Hidden
+   ============================================ */
+.fmyar-hidden { display: none !important; }
+
+/* ============================================
+   Toast Notifications
+   ============================================ */
+#fmyar-toast-container {
+  font-family: inherit;
+}
+
+.fmyar-toast-icon svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.fmyar-toast-success .fmyar-toast-icon { color: #22c55e; }
+.fmyar-toast-error .fmyar-toast-icon { color: #ef4444; }
+.fmyar-toast-warning .fmyar-toast-icon { color: #f59e0b; }
+.fmyar-toast-info .fmyar-toast-icon { color: var(--fmyar-primary); }
+
+.fmyar-toast-success { border-inline-start: 3px solid #22c55e; }
+.fmyar-toast-error { border-inline-start: 3px solid #ef4444; }
+.fmyar-toast-warning { border-inline-start: 3px solid #f59e0b; }
+.fmyar-toast-info { border-inline-start: 3px solid var(--fmyar-primary); }
+
+.fmyar-toast-close:hover { color: var(--fmyar-text); }
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 600px) {
+  .fmyar-form-header {
+    padding: 24px 20px 20px;
+  }
+
+  .fmyar-form-title {
+    font-size: 1.25rem;
+  }
+
+  .fmyar-form {
+    padding: 16px;
+  }
+
+  .fmyar-field-card {
+    padding: 16px;
+  }
+
+  .fmyar-btn-lg {
+    padding: 14px 24px;
+    font-size: 0.9375rem;
+  }
+
+  .fmyar-success-message {
+    padding: 32px 20px;
+  }
+
+  .fmyar-success-icon {
+    width: 64px;
+    height: 64px;
+  }
+
+  .fmyar-success-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  #fmyar-toast-container {
+    left: 16px !important;
+    right: 16px !important;
+    max-width: none !important;
+  }
+
+  .fmyar-toast {
+    min-width: auto !important;
+  }
+}
+
+/* ============================================
+   Dark Mode Support
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+  .fmyar-form-wrapper,
+  .fmyar-form {
+    --fmyar-bg: #18181b;
+    --fmyar-bg-subtle: #27272a;
+    --fmyar-text: #fafafa;
+    --fmyar-text-secondary: #d4d4d8;
+    --fmyar-text-tertiary: #a1a1aa;
+    --fmyar-border: #3f3f46;
+    --fmyar-border-hover: #52525b;
+  }
+
+  .fmyar-form-wrapper {
+    background: var(--fmyar-bg);
+    border-color: var(--fmyar-border);
+  }
+
+  .fmyar-form-header {
+    background: linear-gradient(135deg, rgba(242, 114, 89, 0.15) 0%, var(--fmyar-bg) 100%);
+  }
+
+  .fmyar-input-full,
+  .fmyar-select-full,
+  .fmyar-textarea {
+    background-color: var(--fmyar-bg);
+    color: var(--fmyar-text);
+  }
+
+  .fmyar-file-drop-zone {
+    background: var(--fmyar-bg-subtle);
+  }
+
+  .fmyar-success-message {
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(34, 197, 94, 0.05) 100%);
+    border-color: rgba(34, 197, 94, 0.3);
+  }
+
+  .fmyar-success-message p {
+    color: #86efac;
+  }
+}

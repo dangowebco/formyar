@@ -1,0 +1,1981 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FormYar\n"
+"POT-Creation-Date: 2026-10-10 12:25+0330\n"
+"PO-Revision-Date: 2026-10-03 20:28+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: formyar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/views/about-page.php:15 admin/views/welcome-page.php:18
+msgid "You do not have permission to view this page."
+msgstr ""
+
+#: admin/views/about-page.php:31 admin/views/welcome-page.php:117
+#: includes/functions.php:2338
+msgid "Support Forum"
+msgstr ""
+
+#: admin/views/about-page.php:36 includes/class-admin-notices.php:125
+msgid "Leave a Review"
+msgstr ""
+
+#: admin/views/about-page.php:41
+msgid "Plugin Page"
+msgstr ""
+
+#: admin/views/about-page.php:56
+msgid "Added new feature X."
+msgstr ""
+
+#: admin/views/about-page.php:57
+msgid "Fixed bugs."
+msgstr ""
+
+#: admin/views/about-page.php:63
+msgid "Initial release."
+msgstr ""
+
+#: admin/views/about-page.php:75 admin/views/welcome-page.php:113
+#: includes/functions.php:61
+msgid "About FormYar"
+msgstr ""
+
+#: admin/views/about-page.php:76 admin/views/forms-list.php:42
+#: admin/views/welcome-page.php:53
+msgid "Modern Form Builder for WordPress"
+msgstr ""
+
+#: admin/views/about-page.php:82 admin/views/form-edit.php:43
+msgid "Back to Forms"
+msgstr ""
+
+#. translators: %s: plugin version.
+#: admin/views/about-page.php:95
+#, php-format
+msgid "FormYar %s"
+msgstr ""
+
+#: admin/views/about-page.php:99
+msgid ""
+"A powerful yet lightweight form builder for WordPress — built with love "
+"for Persian users."
+msgstr ""
+
+#. translators: %s: WordPress version.
+#: admin/views/about-page.php:106
+#, php-format
+msgid "Requires WordPress %s+"
+msgstr ""
+
+#. translators: %s: PHP version.
+#: admin/views/about-page.php:113
+#, php-format
+msgid "Requires PHP %s+"
+msgstr ""
+
+#: admin/views/about-page.php:122
+msgid "Useful Links"
+msgstr ""
+
+#: admin/views/about-page.php:136
+msgid "Changelog"
+msgstr ""
+
+#: admin/views/about-page.php:156
+msgid "Developer"
+msgstr ""
+
+#. Author of the plugin/theme
+#: admin/views/about-page.php:159
+msgid "Dango Web"
+msgstr ""
+
+#: admin/views/about-page.php:160
+msgid "We build modern WordPress plugins and tools for Persian users."
+msgstr ""
+
+#: admin/views/about-page.php:163
+msgid "Website"
+msgstr ""
+
+#: admin/views/about-page.php:167
+msgid "WordPress.org"
+msgstr ""
+
+#: admin/views/files-manager.php:46 includes/functions.php:32
+msgid "Files Manager"
+msgstr ""
+
+#. translators: %1$d: number of files, %2$s: total size
+#: admin/views/files-manager.php:49
+#, php-format
+msgid "%1$d files · %2$s total"
+msgstr ""
+
+#: admin/views/files-manager.php:65 formyar.php:244
+msgid "File"
+msgstr ""
+
+#: admin/views/files-manager.php:66
+msgid "Size"
+msgstr ""
+
+#: admin/views/files-manager.php:67 admin/views/form-edit.php:224
+#: includes/fields/class-field-date.php:20 includes/functions.php:185
+#: includes/functions.php:804
+msgid "Date"
+msgstr ""
+
+#: admin/views/files-manager.php:68 admin/views/form-edit.php:225
+msgid "Actions"
+msgstr ""
+
+#: admin/views/files-manager.php:98
+msgid "View"
+msgstr ""
+
+#: admin/views/files-manager.php:104 admin/views/forms-list.php:170
+#: admin/views/forms-list.php:290 formyar.php:181
+msgid "Delete"
+msgstr ""
+
+#: admin/views/files-manager.php:123
+msgid "No files yet"
+msgstr ""
+
+#: admin/views/files-manager.php:125
+msgid "Uploaded form files will appear here."
+msgstr ""
+
+#: admin/views/files-manager.php:128
+msgid "Create a Form"
+msgstr ""
+
+#: admin/views/form-edit.php:14
+msgid "Invalid form ID."
+msgstr ""
+
+#: admin/views/form-edit.php:20 includes/class-form.php:482
+#: includes/functions.php:494 includes/functions.php:523
+#: includes/functions.php:583 includes/functions.php:1981
+msgid "Form not found."
+msgstr ""
+
+#: admin/views/form-edit.php:25 admin/views/form-edit.php:321
+#: includes/class-form.php:504
+msgid "You have already submitted this form."
+msgstr ""
+
+#. translators: %s: form title
+#: admin/views/form-edit.php:30 includes/functions.php:1171
+#: includes/templates/email-notification.php:111
+#, php-format
+msgid "New Form Submission: %s"
+msgstr ""
+
+#: admin/views/form-edit.php:33 includes/functions.php:1205
+msgid "Thank you for your submission"
+msgstr ""
+
+#: admin/views/form-edit.php:34 includes/functions.php:1206
+msgid "We have received your submission. Thank you!"
+msgstr ""
+
+#: admin/views/form-edit.php:53 admin/views/form-edit.php:183
+#: admin/views/forms-list.php:97 admin/views/forms-list.php:129
+#: admin/views/forms-list.php:223 formyar.php:182
+msgid "Active"
+msgstr ""
+
+#: admin/views/form-edit.php:53 admin/views/form-edit.php:183
+#: admin/views/forms-list.php:108 admin/views/forms-list.php:130
+#: admin/views/forms-list.php:223 formyar.php:183
+msgid "Inactive"
+msgstr ""
+
+#. translators: %s: creation date
+#: admin/views/form-edit.php:59
+#, php-format
+msgid "Created %s"
+msgstr ""
+
+#. translators: %d: number of entries
+#: admin/views/form-edit.php:63 admin/views/forms-list.php:238
+#, php-format
+msgid "%d entry"
+msgid_plural "%d entries"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/views/form-edit.php:71
+msgid "Copy shortcode"
+msgstr ""
+
+#: admin/views/form-edit.php:79
+msgid "Save Changes"
+msgstr ""
+
+#: admin/views/form-edit.php:95
+msgid "Builder"
+msgstr ""
+
+#: admin/views/form-edit.php:106
+msgid "Entries"
+msgstr ""
+
+#: admin/views/form-edit.php:117 admin/views/settings-page.php:22
+#: includes/functions.php:41 includes/functions.php:42
+msgid "Settings"
+msgstr ""
+
+#: admin/views/form-edit.php:138
+msgid "Form Fields"
+msgstr ""
+
+#: admin/views/form-edit.php:143 formyar.php:159
+msgid "Add Field"
+msgstr ""
+
+#: admin/views/form-edit.php:161
+msgid "Start building"
+msgstr ""
+
+#: admin/views/form-edit.php:163
+msgid "Add your first field to begin creating this form."
+msgstr ""
+
+#: admin/views/form-edit.php:168
+msgid "Add Your First Field"
+msgstr ""
+
+#: admin/views/form-edit.php:177
+msgid "Quick Settings"
+msgstr ""
+
+#: admin/views/form-edit.php:179
+msgid "Status"
+msgstr ""
+
+#: admin/views/form-edit.php:197
+msgid "Form Entries"
+msgstr ""
+
+#. translators: %d: total entries count
+#: admin/views/form-edit.php:199
+#, php-format
+msgid "%d total entries"
+msgstr ""
+
+#: admin/views/form-edit.php:207
+msgid "Export CSV"
+msgstr ""
+
+#: admin/views/form-edit.php:214
+msgid "Refresh"
+msgstr ""
+
+#: admin/views/form-edit.php:223 includes/functions.php:800
+msgid "User"
+msgstr ""
+
+#: admin/views/form-edit.php:231 formyar.php:186
+msgid "Loading entries..."
+msgstr ""
+
+#: admin/views/form-edit.php:244
+msgid "No entries yet"
+msgstr ""
+
+#: admin/views/form-edit.php:246
+msgid "Entries will appear here when users submit the form."
+msgstr ""
+
+#: admin/views/form-edit.php:263
+msgid "General"
+msgstr ""
+
+#: admin/views/form-edit.php:264
+msgid "Basic form information"
+msgstr ""
+
+#: admin/views/form-edit.php:269 admin/views/modals/modal-form-new.php:15
+#: formyar.php:163
+msgid "Form Title"
+msgstr ""
+
+#: admin/views/form-edit.php:273 admin/views/modals/modal-form-new.php:22
+#: formyar.php:164 includes/fields/class-field-checkbox.php:54
+#: includes/fields/class-field-date-jalali.php:60
+#: includes/fields/class-field-date.php:52
+#: includes/fields/class-field-email.php:61
+#: includes/fields/class-field-file.php:55
+#: includes/fields/class-field-number.php:64
+#: includes/fields/class-field-radio.php:54
+#: includes/fields/class-field-select.php:61
+#: includes/fields/class-field-text.php:63
+#: includes/fields/class-field-textarea.php:63
+msgid "Description"
+msgstr ""
+
+#: admin/views/form-edit.php:287
+msgid "Submission Limit"
+msgstr ""
+
+#: admin/views/form-edit.php:288
+msgid "Control who can submit and how often"
+msgstr ""
+
+#: admin/views/form-edit.php:293
+msgid "Who Can Submit"
+msgstr ""
+
+#: admin/views/form-edit.php:295
+msgid "Everyone"
+msgstr ""
+
+#: admin/views/form-edit.php:296
+msgid "Logged-in Users Only"
+msgstr ""
+
+#: admin/views/form-edit.php:300
+msgid "Limit Type"
+msgstr ""
+
+#: admin/views/form-edit.php:302
+msgid "No Limit"
+msgstr ""
+
+#: admin/views/form-edit.php:303
+msgid "Per User"
+msgstr ""
+
+#: admin/views/form-edit.php:304
+msgid "Per IP Address"
+msgstr ""
+
+#: admin/views/form-edit.php:305
+msgid "Per Browser"
+msgstr ""
+
+#: admin/views/form-edit.php:306
+msgid "User + IP"
+msgstr ""
+
+#: admin/views/form-edit.php:311
+msgid "Max Entries"
+msgstr ""
+
+#: admin/views/form-edit.php:315
+msgid "Time Limit (seconds)"
+msgstr ""
+
+#: admin/views/form-edit.php:320
+msgid "Limit Message"
+msgstr ""
+
+#: admin/views/form-edit.php:335
+msgid "Notifications"
+msgstr ""
+
+#: admin/views/form-edit.php:336
+msgid "Email alerts on new submissions"
+msgstr ""
+
+#: admin/views/form-edit.php:342
+msgid "Admin Notifications"
+msgstr ""
+
+#: admin/views/form-edit.php:343
+msgid "Receive email when someone submits this form"
+msgstr ""
+
+#: admin/views/form-edit.php:352
+msgid "Admin Email"
+msgstr ""
+
+#: admin/views/form-edit.php:354
+msgid "Leave empty to use site admin email"
+msgstr ""
+
+#: admin/views/form-edit.php:357
+msgid "Email Subject"
+msgstr ""
+
+#: admin/views/form-edit.php:364
+msgid "Auto-Reply"
+msgstr ""
+
+#: admin/views/form-edit.php:365
+msgid "Send confirmation email to user"
+msgstr ""
+
+#: admin/views/form-edit.php:374
+msgid "User Email Field"
+msgstr ""
+
+#: admin/views/form-edit.php:376
+msgid "Auto-detect email field"
+msgstr ""
+
+#: admin/views/form-edit.php:385
+msgid "Reply Subject"
+msgstr ""
+
+#: admin/views/form-edit.php:389
+msgid "Reply Message"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: admin/views/forms-list.php:41 includes/functions.php:21
+#: includes/functions.php:22
+msgid "FormYar"
+msgstr ""
+
+#: admin/views/forms-list.php:51
+msgid "Import forms from JSON"
+msgstr ""
+
+#: admin/views/forms-list.php:53
+msgid "Import"
+msgstr ""
+
+#: admin/views/forms-list.php:61
+msgid "From Template"
+msgstr ""
+
+#: admin/views/forms-list.php:70
+msgid "Create New Form"
+msgstr ""
+
+#: admin/views/forms-list.php:86
+msgid "Total Forms"
+msgstr ""
+
+#: admin/views/forms-list.php:120
+msgid "Total Entries"
+msgstr ""
+
+#: admin/views/forms-list.php:128
+msgid "All"
+msgstr ""
+
+#: admin/views/forms-list.php:146
+msgid "Search forms..."
+msgstr ""
+
+#: admin/views/forms-list.php:161
+msgid "Select all forms"
+msgstr ""
+
+#: admin/views/forms-list.php:163
+msgid "Select All"
+msgstr ""
+
+#: admin/views/forms-list.php:166
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/views/forms-list.php:167
+msgid "Enable"
+msgstr ""
+
+#: admin/views/forms-list.php:168
+msgid "Disable"
+msgstr ""
+
+#: admin/views/forms-list.php:169
+msgid "Export Selected"
+msgstr ""
+
+#: admin/views/forms-list.php:172
+msgid "Apply"
+msgstr ""
+
+#. translators: %1$d: number of results, %2$s: search term
+#: admin/views/forms-list.php:180
+#, php-format
+msgid "Found %1$d result(s) for \"%2$s\""
+msgstr ""
+
+#: admin/views/forms-list.php:186
+msgid "Clear"
+msgstr ""
+
+#. translators: %s: form title
+#: admin/views/forms-list.php:207
+#, php-format
+msgid "Select form: %s"
+msgstr ""
+
+#: admin/views/forms-list.php:257
+msgid "Edit form"
+msgstr ""
+
+#: admin/views/forms-list.php:258 formyar.php:178
+msgid "Edit"
+msgstr ""
+
+#: admin/views/forms-list.php:267
+msgid "Duplicate form"
+msgstr ""
+
+#: admin/views/forms-list.php:268 formyar.php:179
+msgid "Duplicate"
+msgstr ""
+
+#: admin/views/forms-list.php:279 formyar.php:180
+msgid "Export"
+msgstr ""
+
+#: admin/views/forms-list.php:289
+msgid "Delete form"
+msgstr ""
+
+#. translators: %1$d: displayed forms count, %2$d: total forms count
+#: admin/views/forms-list.php:306
+#, php-format
+msgid "Showing %1$d of %2$d forms"
+msgstr ""
+
+#: admin/views/forms-list.php:353 admin/views/welcome-page.php:49
+#: includes/functions.php:51
+msgid "Welcome to FormYar"
+msgstr ""
+
+#: admin/views/forms-list.php:359
+msgid ""
+"Create your first form in minutes and start collecting data — no code "
+"required."
+msgstr ""
+
+#: admin/views/forms-list.php:368 admin/views/welcome-page.php:76
+msgid "Create Your First Form"
+msgstr ""
+
+#: admin/views/forms-list.php:377 includes/functions.php:1407
+msgid "Complete Form"
+msgstr ""
+
+#: admin/views/forms-list.php:378 includes/functions.php:1408
+msgid "All 10 field types in one form"
+msgstr ""
+
+#: admin/views/forms-list.php:382 includes/functions.php:1412
+#: includes/functions.php:1575
+msgid "Contact Form"
+msgstr ""
+
+#: admin/views/forms-list.php:383 includes/functions.php:1413
+msgid "Name, email, subject, and message fields."
+msgstr ""
+
+#: admin/views/forms-list.php:387 includes/functions.php:1417
+#: includes/functions.php:1614
+msgid "Survey"
+msgstr ""
+
+#: admin/views/forms-list.php:388 includes/functions.php:1418
+msgid "Multiple choice questions and rating scale."
+msgstr ""
+
+#: admin/views/forms-list.php:392 includes/functions.php:1422
+msgid "Employment"
+msgstr ""
+
+#: admin/views/forms-list.php:393 includes/functions.php:1423
+msgid "Resume upload, cover letter, and contact info."
+msgstr ""
+
+#: admin/views/forms-list.php:397 includes/functions.php:1427
+#: includes/functions.php:1713
+msgid "Reservation"
+msgstr ""
+
+#: admin/views/forms-list.php:398 includes/functions.php:1428
+msgid "Date, time, party size, and contact details."
+msgstr ""
+
+#: admin/views/modals/modal-field-settings.php:15 includes/functions.php:1247
+msgid "Field type not specified."
+msgstr ""
+
+#: admin/views/modals/modal-field-settings.php:22 includes/functions.php:1252
+msgid "Invalid field type."
+msgstr ""
+
+#: admin/views/modals/modal-field-types.php:14
+msgid "Choose the type of field you want to add to your form."
+msgstr ""
+
+#: admin/views/modals/modal-field-types.php:29
+msgid "No field types available."
+msgstr ""
+
+#: admin/views/modals/modal-form-new.php:23 formyar.php:165
+msgid "optional"
+msgstr ""
+
+#: admin/views/modals/modal-form-new.php:25 formyar.php:166
+msgid "Brief description of this form..."
+msgstr ""
+
+#: admin/views/modals/modal-form-new.php:32 formyar.php:158
+msgid "Create Form"
+msgstr ""
+
+#: admin/views/modals/modal-form-new.php:36 formyar.php:161
+#: includes/functions.php:1378 includes/functions.php:1489
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/settings-page.php:23
+msgid "Configure FormYar"
+msgstr ""
+
+#: admin/views/settings-page.php:43
+msgid "reCAPTCHA"
+msgstr ""
+
+#: admin/views/settings-page.php:44
+msgid "Protect forms from spam"
+msgstr ""
+
+#: admin/views/settings-page.php:50 includes/class-admin-notices.php:162
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: admin/views/settings-page.php:51
+msgid "Google reCAPTCHA v3 - invisible spam protection"
+msgstr ""
+
+#: admin/views/settings-page.php:61
+msgid "Site Key"
+msgstr ""
+
+#: admin/views/settings-page.php:65
+msgid "Secret Key"
+msgstr ""
+
+#: admin/views/settings-page.php:69
+msgid "Get keys from"
+msgstr ""
+
+#: admin/views/settings-page.php:83
+msgid "Data Cleanup"
+msgstr ""
+
+#: admin/views/settings-page.php:84
+msgid "What happens when you delete the plugin"
+msgstr ""
+
+#: admin/views/settings-page.php:90
+msgid "Delete all data on uninstall"
+msgstr ""
+
+#: admin/views/settings-page.php:91
+msgid "Remove forms, entries, and settings when plugin is deleted"
+msgstr ""
+
+#: admin/views/settings-page.php:106
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/welcome-page.php:58
+msgid ""
+"Thank you for installing FormYar! Build beautiful forms, surveys, and "
+"polls in minutes — no code required."
+msgstr ""
+
+#. translators: %d: number of forms.
+#: admin/views/welcome-page.php:62
+#, php-format
+msgid "You currently have %d form(s). Keep creating beautiful forms!"
+msgstr ""
+
+#: admin/views/welcome-page.php:77
+msgid "Use the drag & drop builder to create a form in minutes."
+msgstr ""
+
+#: admin/views/welcome-page.php:79
+msgid "Go to Forms"
+msgstr ""
+
+#: admin/views/welcome-page.php:87
+msgid "Configure Settings"
+msgstr ""
+
+#: admin/views/welcome-page.php:88
+msgid "Enable reCAPTCHA and manage plugin preferences."
+msgstr ""
+
+#: admin/views/welcome-page.php:90
+msgid "Open Settings"
+msgstr ""
+
+#: admin/views/welcome-page.php:98
+msgid "Manage Files"
+msgstr ""
+
+#: admin/views/welcome-page.php:99
+msgid "View and manage all files uploaded through your forms."
+msgstr ""
+
+#: admin/views/welcome-page.php:101
+msgid "Open Files"
+msgstr ""
+
+#: admin/views/welcome-page.php:109
+msgid ""
+"Need help getting started? Check out our documentation or reach out to "
+"support."
+msgstr ""
+
+#: admin/views/welcome-page.php:121
+msgid "Skip & Start Building"
+msgstr ""
+
+#: formyar.php:147
+msgid ""
+"Are you sure you want to delete this form? This action cannot be undone."
+msgstr ""
+
+#: formyar.php:148
+msgid "Are you sure you want to delete this entry?"
+msgstr ""
+
+#: formyar.php:149
+msgid "Remove this field?"
+msgstr ""
+
+#: formyar.php:150
+msgid "Delete this file?"
+msgstr ""
+
+#: formyar.php:151
+msgid "Duplicate this form?"
+msgstr ""
+
+#: formyar.php:152
+msgid ""
+"Import this form? The imported form will be disabled until you enable it."
+msgstr ""
+
+#: formyar.php:153
+msgid "Create a new form from this template?"
+msgstr ""
+
+#: formyar.php:154
+msgid "Saving..."
+msgstr ""
+
+#: formyar.php:155
+msgid "Saved!"
+msgstr ""
+
+#: formyar.php:156 formyar.php:242
+msgid "An error occurred."
+msgstr ""
+
+#: formyar.php:157
+msgid "No fields yet"
+msgstr ""
+
+#: formyar.php:160 includes/functions.php:1369
+msgid "Field Settings"
+msgstr ""
+
+#: formyar.php:162 includes/functions.php:451
+msgid "Form title is required."
+msgstr ""
+
+#: formyar.php:167
+msgid "Creating..."
+msgstr ""
+
+#: formyar.php:168
+msgid "Importing..."
+msgstr ""
+
+#: formyar.php:169
+msgid "selected"
+msgstr ""
+
+#: formyar.php:171 includes/class-form-builder.php:55
+msgid "Untitled Field"
+msgstr ""
+
+#: formyar.php:172 includes/class-form-builder.php:85
+#: includes/functions.php:341
+msgid "Required"
+msgstr ""
+
+#: formyar.php:173 includes/fields/class-field-checkbox.php:66
+#: includes/fields/class-field-radio.php:66
+#: includes/fields/class-field-select.php:73
+msgid "Label"
+msgstr ""
+
+#: formyar.php:174 includes/fields/class-field-checkbox.php:67
+#: includes/fields/class-field-radio.php:67
+#: includes/fields/class-field-select.php:74
+msgid "Value (optional)"
+msgstr ""
+
+#: formyar.php:176
+msgid "entries"
+msgstr ""
+
+#: formyar.php:177
+msgid "entry"
+msgstr ""
+
+#: formyar.php:184
+msgid "Copy"
+msgstr ""
+
+#: formyar.php:187
+msgid "Form ID not found"
+msgstr ""
+
+#: formyar.php:189
+msgid "Error loading field types"
+msgstr ""
+
+#: formyar.php:190
+msgid "Error loading field settings"
+msgstr ""
+
+#: formyar.php:191
+msgid "Error duplicating form"
+msgstr ""
+
+#: formyar.php:192
+msgid "Error deleting form"
+msgstr ""
+
+#: formyar.php:193
+msgid "Error deleting entry"
+msgstr ""
+
+#: formyar.php:194
+msgid "Error deleting file"
+msgstr ""
+
+#: formyar.php:195
+msgid "Error saving form"
+msgstr ""
+
+#: formyar.php:196
+msgid "Error saving settings"
+msgstr ""
+
+#: formyar.php:197
+msgid "Error creating form"
+msgstr ""
+
+#: formyar.php:198
+msgid "Error importing form"
+msgstr ""
+
+#: formyar.php:200
+msgid "Copied!"
+msgstr ""
+
+#: formyar.php:201
+msgid "Failed to copy"
+msgstr ""
+
+#: formyar.php:203
+msgid "Please select a JSON file"
+msgstr ""
+
+#: formyar.php:204 includes/functions.php:2044
+msgid "File is too large. Maximum size is 1 MB."
+msgstr ""
+
+#: formyar.php:205
+msgid "Please upload a JSON file"
+msgstr ""
+
+#: formyar.php:234
+msgid "Uploading..."
+msgstr ""
+
+#: formyar.php:235
+msgid "Upload failed. Please try again."
+msgstr ""
+
+#: formyar.php:236
+msgid "File is too large."
+msgstr ""
+
+#: formyar.php:237
+msgid "File type not allowed."
+msgstr ""
+
+#: formyar.php:238
+msgid "Maximum files reached."
+msgstr ""
+
+#: formyar.php:239
+msgid "This field is required."
+msgstr ""
+
+#: formyar.php:240
+msgid "Submitting..."
+msgstr ""
+
+#: formyar.php:241
+msgid "Submit"
+msgstr ""
+
+#: formyar.php:243
+msgid "Close"
+msgstr ""
+
+#: includes/class-admin-notices.php:92
+msgid "Welcome to FormYar!"
+msgstr ""
+
+#: includes/class-admin-notices.php:93
+msgid "Thanks for installing FormYar. Let's create your first form."
+msgstr ""
+
+#: includes/class-admin-notices.php:96
+msgid "Get Started"
+msgstr ""
+
+#: includes/class-admin-notices.php:101
+msgid "Skip"
+msgstr ""
+
+#: includes/class-admin-notices.php:121
+msgid "Enjoying FormYar?"
+msgstr ""
+
+#: includes/class-admin-notices.php:122
+msgid ""
+"If you find FormYar helpful, please leave us a 5-star review. Your "
+"feedback helps us improve!"
+msgstr ""
+
+#: includes/class-admin-notices.php:131
+msgid "Maybe Later"
+msgstr ""
+
+#: includes/class-admin-notices.php:137
+msgid "Already Reviewed"
+msgstr ""
+
+#: includes/class-admin-notices.php:158
+msgid "Protect Your Forms from Spam"
+msgstr ""
+
+#: includes/class-admin-notices.php:159
+msgid ""
+"Enable Google reCAPTCHA v3 to protect your forms from spam submissions."
+msgstr ""
+
+#: includes/class-admin-notices.php:167 includes/class-admin-notices.php:219
+#: includes/class-admin-notices.php:359
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-admin-notices.php:204
+msgid "Your Forms Are Ready"
+msgstr ""
+
+#: includes/class-admin-notices.php:205
+msgid ""
+"You've created forms but haven't received any submissions yet. Make sure "
+"to embed the shortcode on a page or post to start collecting data."
+msgstr ""
+
+#: includes/class-admin-notices.php:208
+msgid "View Forms"
+msgstr ""
+
+#: includes/class-admin-notices.php:213
+msgid "Learn How"
+msgstr ""
+
+#: includes/class-db.php:92
+msgid "FormYar:"
+msgstr ""
+
+#: includes/class-db.php:93
+msgid "Database update required."
+msgstr ""
+
+#: includes/class-db.php:97
+msgid "Update Database Now"
+msgstr ""
+
+#: includes/class-file-handler.php:24
+msgid "Invalid download link."
+msgstr ""
+
+#: includes/class-file-handler.php:28 includes/functions.php:1291
+msgid "File not found."
+msgstr ""
+
+#: includes/class-file-handler.php:34 includes/functions.php:443
+#: includes/functions.php:484 includes/functions.php:511
+#: includes/functions.php:545 includes/functions.php:696
+#: includes/functions.php:771 includes/functions.php:907
+#: includes/functions.php:1225 includes/functions.php:1236
+#: includes/functions.php:1274 includes/functions.php:1304
+#: includes/functions.php:1895 includes/functions.php:1969
+#: includes/functions.php:2032
+msgid "Access denied."
+msgstr ""
+
+#: includes/class-form-builder.php:91
+msgid "Edit field"
+msgstr ""
+
+#: includes/class-form-builder.php:96
+msgid "Duplicate field"
+msgstr ""
+
+#: includes/class-form-builder.php:102
+msgid "Delete field"
+msgstr ""
+
+#: includes/class-form.php:223
+msgid "Untitled Form"
+msgstr ""
+
+#: includes/class-form.php:397
+msgid "This form is currently inactive."
+msgstr ""
+
+#: includes/class-form.php:405
+msgid "Please log in to submit this form."
+msgstr ""
+
+#: includes/class-form.php:422
+msgid "This form has no fields yet."
+msgstr ""
+
+#: includes/class-form.php:443
+msgid "fields completed"
+msgstr ""
+
+#: includes/class-form.php:455
+msgid "Submit Form"
+msgstr ""
+
+#: includes/class-form.php:459
+msgid "Your information is safe with us. We never share your data."
+msgstr ""
+
+#: includes/class-form.php:476 includes/functions.php:489
+#: includes/functions.php:1014 includes/functions.php:1975
+msgid "Form ID is required."
+msgstr ""
+
+#: includes/class-form.php:495
+msgid "You must be logged in to submit this form."
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:20 includes/functions.php:203
+msgid "Checkbox"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:35
+#: includes/fields/class-field-radio.php:35
+#: includes/fields/class-field-select.php:36
+msgid "Option 1"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:36
+#: includes/fields/class-field-radio.php:36
+#: includes/fields/class-field-select.php:37
+msgid "Option 2"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:48
+#: includes/fields/class-field-date-jalali.php:49
+#: includes/fields/class-field-date.php:46
+#: includes/fields/class-field-email.php:45
+#: includes/fields/class-field-file.php:49
+#: includes/fields/class-field-number.php:48
+#: includes/fields/class-field-radio.php:48
+#: includes/fields/class-field-select.php:49
+#: includes/fields/class-field-text.php:47
+#: includes/fields/class-field-textarea.php:47
+msgid "Field Label"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:60
+#: includes/fields/class-field-radio.php:60
+#: includes/fields/class-field-select.php:67
+msgid "Options"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:61
+#: includes/fields/class-field-radio.php:61
+#: includes/fields/class-field-select.php:68
+msgid "Add Option"
+msgstr ""
+
+#: includes/fields/class-field-checkbox.php:80
+#: includes/fields/class-field-date-jalali.php:82
+#: includes/fields/class-field-date.php:74
+#: includes/fields/class-field-email.php:67
+#: includes/fields/class-field-file.php:84
+#: includes/fields/class-field-number.php:85
+#: includes/fields/class-field-radio.php:80
+#: includes/fields/class-field-select.php:87
+#: includes/fields/class-field-text.php:81
+#: includes/fields/class-field-textarea.php:81
+msgid "This field is required"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-checkbox.php:126
+#, php-format
+msgid "Please select at least one option for %s."
+msgstr ""
+
+#: includes/fields/class-field-date-jalali.php:22 includes/functions.php:191
+msgid "Jalali Date"
+msgstr ""
+
+#: includes/fields/class-field-date-jalali.php:55
+#: includes/fields/class-field-email.php:51
+#: includes/fields/class-field-number.php:54
+#: includes/fields/class-field-text.php:53
+#: includes/fields/class-field-textarea.php:53
+msgid "Placeholder"
+msgstr ""
+
+#: includes/fields/class-field-date-jalali.php:66
+msgid "Min Date (Jalali)"
+msgstr ""
+
+#: includes/fields/class-field-date-jalali.php:70
+msgid "Max Date (Jalali)"
+msgstr ""
+
+#: includes/fields/class-field-date-jalali.php:76
+msgid "Default Value (Jalali)"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-date-jalali.php:127
+#: includes/fields/class-field-date.php:120
+#: includes/fields/class-field-email.php:108
+#: includes/fields/class-field-file.php:166
+#: includes/fields/class-field-number.php:134
+#: includes/fields/class-field-select.php:138
+#: includes/fields/class-field-text.php:132
+#: includes/fields/class-field-textarea.php:131 includes/functions.php:1069
+#: includes/functions.php:1080
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-date-jalali.php:133
+#, php-format
+msgid "%s must be a valid date (YYYY/MM/DD)."
+msgstr ""
+
+#: includes/fields/class-field-date.php:58
+msgid "Min Date"
+msgstr ""
+
+#: includes/fields/class-field-date.php:62
+msgid "Max Date"
+msgstr ""
+
+#: includes/fields/class-field-date.php:68
+#: includes/fields/class-field-email.php:56
+#: includes/fields/class-field-number.php:59
+#: includes/fields/class-field-text.php:58
+#: includes/fields/class-field-textarea.php:58
+msgid "Default Value"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-date.php:126
+#, php-format
+msgid "%s must be a valid date."
+msgstr ""
+
+#. translators: %1$s: field label, %2$s: date
+#: includes/fields/class-field-date.php:134
+#, php-format
+msgid "%1$s must be on or after %2$s."
+msgstr ""
+
+#. translators: %1$s: field label, %2$s: date
+#: includes/fields/class-field-date.php:139
+#, php-format
+msgid "%1$s must be on or before %2$s."
+msgstr ""
+
+#: includes/fields/class-field-email.php:20 includes/functions.php:179
+#: includes/functions.php:1674 includes/functions.php:1726
+msgid "Email"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-email.php:113
+#, php-format
+msgid "%s must be a valid email address."
+msgstr ""
+
+#: includes/fields/class-field-file.php:22 includes/functions.php:215
+msgid "File Upload"
+msgstr ""
+
+#: includes/fields/class-field-file.php:39
+#: includes/fields/class-field-file.php:62
+#: includes/fields/class-field-file.php:94
+msgid "Choose File"
+msgstr ""
+
+#: includes/fields/class-field-file.php:57
+msgid "Show help text or accepted file types info"
+msgstr ""
+
+#: includes/fields/class-field-file.php:61
+msgid "Button Text"
+msgstr ""
+
+#: includes/fields/class-field-file.php:66
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/fields/class-field-file.php:68
+msgid "Comma separated file extensions"
+msgstr ""
+
+#: includes/fields/class-field-file.php:73
+msgid "Max File Size (MB)"
+msgstr ""
+
+#: includes/fields/class-field-file.php:77
+msgid "Max Files"
+msgstr ""
+
+#. translators: %1$s: allowed file types, %2$d: max size in MB, %3$d: max number of files
+#: includes/fields/class-field-file.php:134
+#, php-format
+msgid "Allowed: %1$s | Max: %2$dMB | Max files: %3$d"
+msgstr ""
+
+#: includes/fields/class-field-number.php:20 includes/functions.php:173
+msgid "Number"
+msgstr ""
+
+#: includes/fields/class-field-number.php:70
+msgid "Min"
+msgstr ""
+
+#: includes/fields/class-field-number.php:74
+msgid "Max"
+msgstr ""
+
+#: includes/fields/class-field-number.php:78
+msgid "Step"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-number.php:140
+#, php-format
+msgid "%s must be a number."
+msgstr ""
+
+#. translators: %1$s: field label, %2$s: minimum value
+#: includes/fields/class-field-number.php:148
+#, php-format
+msgid "%1$s must be at least %2$s."
+msgstr ""
+
+#. translators: %1$s: field label, %2$s: maximum value
+#: includes/fields/class-field-number.php:153
+#, php-format
+msgid "%1$s must be at most %2$s."
+msgstr ""
+
+#: includes/fields/class-field-radio.php:20 includes/functions.php:209
+msgid "Radio"
+msgstr ""
+
+#. translators: %s: field label
+#: includes/fields/class-field-radio.php:126
+#, php-format
+msgid "Please select an option for %s."
+msgstr ""
+
+#: includes/fields/class-field-select.php:20 includes/functions.php:197
+msgid "Dropdown"
+msgstr ""
+
+#: includes/fields/class-field-select.php:55
+msgid "Placeholder (First Empty Option)"
+msgstr ""
+
+#: includes/fields/class-field-select.php:56
+msgid "Select an option"
+msgstr ""
+
+#: includes/fields/class-field-select.php:57
+msgid "Leave empty for no placeholder"
+msgstr ""
+
+#: includes/fields/class-field-text.php:20 includes/functions.php:161
+msgid "Text Input"
+msgstr ""
+
+#: includes/fields/class-field-text.php:65
+#: includes/fields/class-field-textarea.php:65
+msgid "Help text shown below the field"
+msgstr ""
+
+#: includes/fields/class-field-text.php:70
+msgid "Min Length"
+msgstr ""
+
+#: includes/fields/class-field-text.php:74
+#: includes/fields/class-field-textarea.php:74
+msgid "Max Length"
+msgstr ""
+
+#. translators: %1$s: field label, %2$d: minimum characters
+#: includes/fields/class-field-text.php:142
+#, php-format
+msgid "%1$s must be at least %2$d characters."
+msgstr ""
+
+#. translators: %1$s: field label, %2$d: maximum characters
+#: includes/fields/class-field-text.php:147
+#: includes/fields/class-field-textarea.php:140
+#, php-format
+msgid "%1$s must be less than %2$d characters."
+msgstr ""
+
+#: includes/fields/class-field-textarea.php:20 includes/functions.php:167
+msgid "Text Area"
+msgstr ""
+
+#: includes/fields/class-field-textarea.php:70
+msgid "Rows"
+msgstr ""
+
+#: includes/functions.php:33
+msgid "Files"
+msgstr ""
+
+#: includes/functions.php:52
+msgid "Welcome"
+msgstr ""
+
+#: includes/functions.php:62 includes/functions.php:2326
+msgid "About"
+msgstr ""
+
+#: includes/functions.php:163
+msgid "Single line text input"
+msgstr ""
+
+#: includes/functions.php:169
+msgid "Multi-line text input"
+msgstr ""
+
+#: includes/functions.php:175
+msgid "Numeric input with min/max"
+msgstr ""
+
+#: includes/functions.php:181
+msgid "Email address input"
+msgstr ""
+
+#: includes/functions.php:187
+msgid "Date picker input"
+msgstr ""
+
+#: includes/functions.php:193
+msgid "Jalali date picker"
+msgstr ""
+
+#: includes/functions.php:199
+msgid "Dropdown select list"
+msgstr ""
+
+#: includes/functions.php:205
+msgid "Multiple choice checkboxes"
+msgstr ""
+
+#: includes/functions.php:211
+msgid "Single choice radio buttons"
+msgstr ""
+
+#: includes/functions.php:217
+msgid "File upload field"
+msgstr ""
+
+#: includes/functions.php:324 includes/functions.php:814
+#: includes/templates/email-notification.php:129
+msgid "Untitled"
+msgstr ""
+
+#: includes/functions.php:439 includes/functions.php:480
+#: includes/functions.php:507 includes/functions.php:541
+#: includes/functions.php:692 includes/functions.php:767
+#: includes/functions.php:903 includes/functions.php:984
+#: includes/functions.php:1108 includes/functions.php:1221
+#: includes/functions.php:1240 includes/functions.php:1278
+#: includes/functions.php:1308 includes/functions.php:1890
+#: includes/functions.php:1964 includes/functions.php:2027
+msgid "Security check failed."
+msgstr ""
+
+#: includes/functions.php:468
+msgid "Form created successfully."
+msgstr ""
+
+#: includes/functions.php:474
+msgid "Failed to create form."
+msgstr ""
+
+#: includes/functions.php:498
+msgid "Form deleted successfully."
+msgstr ""
+
+#: includes/functions.php:501
+msgid "Failed to delete form."
+msgstr ""
+
+#: includes/functions.php:518
+msgid "Invalid parameters."
+msgstr ""
+
+#: includes/functions.php:527
+msgid "activated"
+msgstr ""
+
+#: includes/functions.php:527
+msgid "deactivated"
+msgstr ""
+
+#. translators: %s: form status (activated/deactivated)
+#: includes/functions.php:529
+#, php-format
+msgid "Form %s successfully."
+msgstr ""
+
+#: includes/functions.php:532
+msgid "Failed to update form status."
+msgstr ""
+
+#: includes/functions.php:578
+msgid "Form ID and title are required."
+msgstr ""
+
+#: includes/functions.php:596
+msgid "Form updated successfully."
+msgstr ""
+
+#: includes/functions.php:599
+msgid "Failed to update form."
+msgstr ""
+
+#: includes/functions.php:723 includes/functions.php:801
+#: includes/templates/email-notification.php:122
+msgid "Guest"
+msgstr ""
+
+#: includes/functions.php:866
+msgid "Download"
+msgstr ""
+
+#: includes/functions.php:871
+msgid "File data is empty or corrupted."
+msgstr ""
+
+#: includes/functions.php:890
+msgid "No fields found."
+msgstr ""
+
+#: includes/functions.php:912
+msgid "Entry ID required."
+msgstr ""
+
+#: includes/functions.php:993
+msgid "Security check failed. Please refresh the page and try again."
+msgstr ""
+
+#: includes/functions.php:1007
+msgid "Spam detected. Please try again."
+msgstr ""
+
+#: includes/functions.php:1019 includes/functions.php:1125
+msgid "Form not found or inactive."
+msgstr ""
+
+#: includes/functions.php:1030
+msgid "This form has no fields."
+msgstr ""
+
+#: includes/functions.php:1095
+msgid "Your response has been submitted successfully."
+msgstr ""
+
+#: includes/functions.php:1098
+msgid "Failed to save your response. Please try again."
+msgstr ""
+
+#: includes/functions.php:1112
+msgid "No file uploaded."
+msgstr ""
+
+#: includes/functions.php:1120
+msgid "Invalid request."
+msgstr ""
+
+#: includes/functions.php:1142
+msgid "Invalid field."
+msgstr ""
+
+#: includes/functions.php:1146
+msgid "Upload failed. Error code: "
+msgstr ""
+
+#: includes/functions.php:1155
+msgid "File uploaded successfully."
+msgstr ""
+
+#: includes/functions.php:1159
+msgid "Failed to upload file. Check file type and size."
+msgstr ""
+
+#: includes/functions.php:1283
+msgid "Invalid file."
+msgstr ""
+
+#: includes/functions.php:1295
+msgid "File deleted."
+msgstr ""
+
+#: includes/functions.php:1298
+msgid "Failed to delete file."
+msgstr ""
+
+#: includes/functions.php:1316
+msgid "Settings saved."
+msgstr ""
+
+#: includes/functions.php:1333
+msgid "Close modal"
+msgstr ""
+
+#: includes/functions.php:1351
+msgid "Entry Details"
+msgstr ""
+
+#: includes/functions.php:1379
+msgid "Save Field"
+msgstr ""
+
+#: includes/functions.php:1391
+msgid "Start from a Template"
+msgstr ""
+
+#: includes/functions.php:1400
+msgid ""
+"Select a JSON file exported from FormYar. Supports both single form and "
+"bulk export files. All imported forms will be disabled by default."
+msgstr ""
+
+#: includes/functions.php:1459 includes/functions.php:1492
+msgid "Import Form"
+msgstr ""
+
+#: includes/functions.php:1468
+msgid ""
+"Select a JSON file exported from FormYar. The imported form will be "
+"disabled by default — you can enable it after reviewing."
+msgstr ""
+
+#: includes/functions.php:1473
+msgid "JSON File"
+msgstr ""
+
+#: includes/functions.php:1481
+msgid "Maximum file size: 1 MB."
+msgstr ""
+
+#: includes/functions.php:1576
+msgid "A basic contact form with name, email, subject, and message fields."
+msgstr ""
+
+#: includes/functions.php:1581 includes/functions.php:1620
+msgid "Your Name"
+msgstr ""
+
+#: includes/functions.php:1582
+msgid "Enter your name"
+msgstr ""
+
+#: includes/functions.php:1589
+msgid "Your Email"
+msgstr ""
+
+#: includes/functions.php:1590 includes/functions.php:1781
+msgid "example@email.com"
+msgstr ""
+
+#: includes/functions.php:1597
+msgid "Subject"
+msgstr ""
+
+#: includes/functions.php:1598
+msgid "What is this about?"
+msgstr ""
+
+#: includes/functions.php:1605
+msgid "Your Message"
+msgstr ""
+
+#: includes/functions.php:1606
+msgid "Write your message here..."
+msgstr ""
+
+#: includes/functions.php:1615
+msgid "Collect user opinions with multiple choice and rating questions."
+msgstr ""
+
+#: includes/functions.php:1627
+msgid "How would you rate our service?"
+msgstr ""
+
+#: includes/functions.php:1630
+msgid "Excellent"
+msgstr ""
+
+#: includes/functions.php:1631
+msgid "Good"
+msgstr ""
+
+#: includes/functions.php:1632
+msgid "Average"
+msgstr ""
+
+#: includes/functions.php:1633
+msgid "Poor"
+msgstr ""
+
+#: includes/functions.php:1640
+msgid "Which features do you use most?"
+msgstr ""
+
+#: includes/functions.php:1643
+msgid "Form Builder"
+msgstr ""
+
+#: includes/functions.php:1644
+msgid "Polls"
+msgstr ""
+
+#: includes/functions.php:1645
+msgid "Surveys"
+msgstr ""
+
+#: includes/functions.php:1652
+msgid "Any additional feedback?"
+msgstr ""
+
+#: includes/functions.php:1653
+msgid "We value your opinion..."
+msgstr ""
+
+#: includes/functions.php:1661
+msgid "Job Application"
+msgstr ""
+
+#: includes/functions.php:1662
+msgid "Collect job applications with resume upload and contact information."
+msgstr ""
+
+#: includes/functions.php:1667 includes/functions.php:1719
+#: includes/functions.php:1771
+msgid "Full Name"
+msgstr ""
+
+#: includes/functions.php:1681 includes/functions.php:1733
+msgid "Phone Number"
+msgstr ""
+
+#: includes/functions.php:1688
+msgid "Position Applied For"
+msgstr ""
+
+#: includes/functions.php:1695
+msgid "Upload Resume (PDF)"
+msgstr ""
+
+#: includes/functions.php:1705
+msgid "Cover Letter"
+msgstr ""
+
+#: includes/functions.php:1714
+msgid "Take reservations with date, time, and party size."
+msgstr ""
+
+#: includes/functions.php:1740
+msgid "Reservation Date"
+msgstr ""
+
+#: includes/functions.php:1747
+msgid "Number of Guests"
+msgstr ""
+
+#: includes/functions.php:1756
+msgid "Special Requests"
+msgstr ""
+
+#: includes/functions.php:1764
+msgid "Complete Form (All Fields)"
+msgstr ""
+
+#: includes/functions.php:1765
+msgid ""
+"Sample form with all 10 field types. Use it to explore FormYar's "
+"capabilities."
+msgstr ""
+
+#: includes/functions.php:1772
+msgid "Enter your full name"
+msgstr ""
+
+#: includes/functions.php:1780
+msgid "Email Address"
+msgstr ""
+
+#: includes/functions.php:1789
+msgid "Age"
+msgstr ""
+
+#: includes/functions.php:1799
+msgid "Birth Date (Gregorian)"
+msgstr ""
+
+#: includes/functions.php:1807
+msgid "Birth Date (Jalali)"
+msgstr ""
+
+#: includes/functions.php:1815
+msgid "Country"
+msgstr ""
+
+#: includes/functions.php:1818
+msgid "Iran"
+msgstr ""
+
+#: includes/functions.php:1819
+msgid "Turkey"
+msgstr ""
+
+#: includes/functions.php:1820
+msgid "Germany"
+msgstr ""
+
+#: includes/functions.php:1821
+msgid "USA"
+msgstr ""
+
+#: includes/functions.php:1829
+msgid "Gender"
+msgstr ""
+
+#: includes/functions.php:1832
+msgid "Male"
+msgstr ""
+
+#: includes/functions.php:1833
+msgid "Female"
+msgstr ""
+
+#: includes/functions.php:1841
+msgid "Interests"
+msgstr ""
+
+#: includes/functions.php:1844
+msgid "Sports"
+msgstr ""
+
+#: includes/functions.php:1845
+msgid "Music"
+msgstr ""
+
+#: includes/functions.php:1846
+msgid "Travel"
+msgstr ""
+
+#: includes/functions.php:1847
+msgid "Books"
+msgstr ""
+
+#: includes/functions.php:1848
+msgid "Technology"
+msgstr ""
+
+#: includes/functions.php:1856
+msgid "About Me"
+msgstr ""
+
+#: includes/functions.php:1857
+msgid "Tell us about yourself..."
+msgstr ""
+
+#: includes/functions.php:1866
+msgid "Profile Picture"
+msgstr ""
+
+#: includes/functions.php:1901
+msgid "Template not specified."
+msgstr ""
+
+#: includes/functions.php:1907
+msgid "Template not found."
+msgstr ""
+
+#: includes/functions.php:1941
+msgid "Form created from template successfully."
+msgstr ""
+
+#: includes/functions.php:1947
+msgid "Failed to create form from template."
+msgstr ""
+
+#. translators: %s: original form title
+#: includes/functions.php:1987
+#, php-format
+msgid "%s (Copy)"
+msgstr ""
+
+#: includes/functions.php:2005
+msgid "Form duplicated successfully."
+msgstr ""
+
+#: includes/functions.php:2011
+msgid "Failed to duplicate form."
+msgstr ""
+
+#: includes/functions.php:2037
+msgid "No file uploaded or upload failed."
+msgstr ""
+
+#: includes/functions.php:2050
+msgid "Invalid file type. Please upload a JSON file."
+msgstr ""
+
+#: includes/functions.php:2057
+msgid "Could not read the file."
+msgstr ""
+
+#: includes/functions.php:2063
+msgid "Invalid JSON file."
+msgstr ""
+
+#: includes/functions.php:2071
+msgid "This file was not exported from FormYar."
+msgstr ""
+
+#. translators: %s: original form title
+#: includes/functions.php:2104 includes/functions.php:2162
+#, php-format
+msgid "%s (Imported)"
+msgstr ""
+
+#: includes/functions.php:2125
+msgid "No forms could be imported."
+msgstr ""
+
+#. translators: %1$d: number of imported forms, %2$d: number of failed forms
+#: includes/functions.php:2131
+#, php-format
+msgid ""
+"%1$d form(s) imported successfully. %2$d failed. All imported forms are "
+"disabled."
+msgstr ""
+
+#: includes/functions.php:2145
+msgid "Invalid form data in the file."
+msgstr ""
+
+#: includes/functions.php:2177
+msgid "Form imported successfully. It is disabled until you enable it."
+msgstr ""
+
+#: includes/functions.php:2193
+msgid "Failed to create the form."
+msgstr ""
+
+#: includes/functions.php:2332
+msgid "Documentation"
+msgstr ""
+
+#: includes/functions.php:2344
+msgid "FAQ"
+msgstr ""
+
+#: includes/functions.php:2350
+msgid "Contact Us"
+msgstr ""
+
+#: includes/functions.php:2368
+msgid "Need Help?"
+msgstr ""
+
+#: includes/functions.php:2369
+msgid "We're here to help you."
+msgstr ""
+
+#: includes/functions.php:2390
+msgid "Toggle help menu"
+msgstr ""
+
+#: includes/templates/email-notification.php:118
+#: includes/templates/email-notification.php:122
+msgid "User:"
+msgstr ""
+
+#. translators: %s: site name
+#: includes/templates/email-notification.php:155
+#, php-format
+msgid "Sent from %s"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://dangoweb.ir/product/formyar-wordpress-form-builder-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced form builder for WordPress with poll & survey support. Create "
+"beautiful forms, surveys, and polls with an intuitive drag & drop builder."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://dangoweb.ir/"
+msgstr ""

@@ -1,0 +1,247 @@
+/**
+ * FormYar - Admin Notice Styles
+ *
+ * Loaded globally on all admin pages for admin notices.
+ */
+
+/* ============================================
+   Design Tokens
+   ============================================ */
+.fmyar-notice {
+  --fmyar-primary: #f27259;
+  --fmyar-primary-hover: #e05a42;
+  --fmyar-primary-light: #fef0ed;
+  --fmyar-success: #22c55e;
+  --fmyar-success-light: #f0fdf4;
+  --fmyar-warning: #f59e0b;
+  --fmyar-warning-light: #fffbeb;
+  --fmyar-danger: #ef4444;
+  --fmyar-danger-light: #fef2f2;
+  --fmyar-text: #18181b;
+  --fmyar-text-secondary: #52525b;
+  --fmyar-text-tertiary: #71717a;
+  --fmyar-border: #e8e8ea;
+  --fmyar-radius: 10px;
+  --fmyar-radius-sm: 6px;
+  --fmyar-transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --fmyar-font:
+    "Estedad", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Roboto,
+    sans-serif;
+}
+
+/* ============================================
+   Notice Container
+   ============================================ */
+.fmyar-notice {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px !important;
+  margin: 20px 20px 20px 0 !important;
+  background: #fff !important;
+  border: 1px solid var(--fmyar-border) !important;
+  border-inline-start: 4px solid var(--fmyar-primary) !important;
+  border-radius: var(--fmyar-radius) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+  position: relative;
+  font-family: var(--fmyar-font);
+}
+
+/* ============================================
+   Notice Type Variants
+   ============================================ */
+.fmyar-notice-info {
+  border-inline-start-color: var(--fmyar-primary) !important;
+}
+
+.fmyar-notice-success {
+  border-inline-start-color: var(--fmyar-success) !important;
+}
+
+.fmyar-notice-warning {
+  border-inline-start-color: var(--fmyar-warning) !important;
+}
+
+.fmyar-notice-error {
+  border-inline-start-color: var(--fmyar-danger) !important;
+}
+
+/* ============================================
+   Notice Icon
+   ============================================ */
+.fmyar-notice-icon {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--fmyar-radius-sm);
+  flex-shrink: 0;
+}
+
+.fmyar-notice-icon .dashicons {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.fmyar-notice-info .fmyar-notice-icon {
+  background: var(--fmyar-primary-light);
+  color: var(--fmyar-primary);
+}
+
+.fmyar-notice-success .fmyar-notice-icon {
+  background: var(--fmyar-success-light);
+  color: var(--fmyar-success);
+}
+
+.fmyar-notice-warning .fmyar-notice-icon {
+  background: var(--fmyar-warning-light);
+  color: var(--fmyar-warning);
+}
+
+.fmyar-notice-error .fmyar-notice-icon {
+  background: var(--fmyar-danger-light);
+  color: var(--fmyar-danger);
+}
+
+/* ============================================
+   Notice Content
+   ============================================ */
+.fmyar-notice-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.fmyar-notice-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--fmyar-text);
+  margin: 0 0 4px;
+  line-height: 1.4;
+}
+
+.fmyar-notice-message {
+  font-size: 14px;
+  color: var(--fmyar-text-secondary);
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+/* ============================================
+   Notice Actions
+   ============================================ */
+.fmyar-notice-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.fmyar-notice-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--fmyar-radius-sm);
+  transition: all var(--fmyar-transition);
+  border: 1px solid transparent;
+  cursor: pointer;
+  line-height: 1;
+  font-family: var(--fmyar-font);
+}
+
+.fmyar-notice-btn-primary {
+  background: var(--fmyar-primary);
+  color: #fff;
+}
+
+.fmyar-notice-btn-primary:hover {
+  background: var(--fmyar-primary-hover);
+  color: #fff;
+}
+
+.fmyar-notice-btn-secondary {
+  background: #fff;
+  color: var(--fmyar-text);
+  border-color: var(--fmyar-border);
+}
+
+.fmyar-notice-btn-secondary:hover {
+  background: #fafafa;
+  border-color: var(--fmyar-border-hover);
+  color: var(--fmyar-text);
+}
+
+.fmyar-notice-btn-link {
+  background: transparent;
+  color: var(--fmyar-text-secondary);
+  padding: 8px 4px;
+}
+
+.fmyar-notice-btn-link:hover {
+  color: var(--fmyar-primary);
+  text-decoration: underline;
+}
+
+/* ============================================
+   Notice Close Button
+   ============================================ */
+.fmyar-notice-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-radius: var(--fmyar-radius-sm);
+  color: var(--fmyar-text-tertiary);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all var(--fmyar-transition);
+}
+
+.fmyar-notice-close:hover {
+  background: #f4f4f5;
+  color: var(--fmyar-text);
+}
+
+.fmyar-notice-close .dashicons {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+/* ============================================
+   Dismissing Animation
+   ============================================ */
+.fmyar-notice.is-dismissing {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 782px) {
+  .fmyar-notice {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .fmyar-notice-close {
+    position: absolute;
+    top: 12px;
+    inset-inline-end: 12px;
+  }
+
+  .fmyar-notice-content {
+    padding-inline-end: 32px;
+  }
+}
